@@ -6,10 +6,10 @@ import org.springframework.data.mongodb.config.EnableMongoAuditing;
 
 @EnableMongoAuditing
 @SpringBootApplication
-public class Application {
+public class MovieServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Application.class, args);
+		SpringApplication.run(MovieServiceApplication.class, args);
 	}
 
 }
